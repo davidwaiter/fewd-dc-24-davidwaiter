@@ -1,0 +1,50 @@
+
+body {
+	background: #DCDCDC;
+}
+
+#notification {
+	background: #C0C0C0;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#notification code {
+	background: white;
+}
+
+.message {
+	background: white;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 10px 10px 10px 0px	;
+
+}
+
+.message code {
+	background: #808080;
+	color: white;
+}
+
+ .error {
+ 	background: red;
+ 	padding: 2px;
+
+}
+
+.error code {
+	padding: 1px;
+}
+
+
+code {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.success {
+	background: green;
+	border: 1px solid black;
+	border-radius: 5px;
+}

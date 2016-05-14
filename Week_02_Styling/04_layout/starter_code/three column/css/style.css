@@ -1,0 +1,95 @@
+
+
+.header {
+	background-color: #C0C0C0;
+	width: 100% auto;
+	border: 1px solid black;
+	height: 75px;
+}
+
+.main_one {
+	text-align: center;
+	overflow: auto;
+}
+
+.section_one {
+	border: 1px solid black;
+	background-color: #C0C0C0;
+	float: left;
+	width: 45%;
+    margin: 1%;
+    border-radius: 2px;
+    height: 75px;
+}
+
+/*.firstSection1 {
+	border: 1px solid black;
+	background-color: #C0C0C0;
+	float: left;
+	display: inline-block;
+	width: 45%;
+    text-align:center;
+    margin: 1%;
+   
+}
+
+.secondSection1 {
+	border: 1px solid black;
+	background-color: #C0C0C0;
+	float: left;
+	display: inline-block;
+	width: 45%;
+    margin: 1%;
+}*/
+
+.main_two {
+	text-align: center;
+	overflow: auto;
+}
+
+.section_two {
+	border: 1px solid black;
+	background-color: #C0C0C0;
+	float: left;
+	width: 20%;
+	margin: 1%;
+	border-radius: 2px;
+	height: 75px;
+}
+
+/*.firstSection2 {
+	border: 1px solid black;
+	background-color: #C0C0C0;
+	float: left;
+	display: block;
+	width: 20%;
+	margin: 1%;
+}
+
+.secondSection2 {
+	border: 1px solid black;
+	background-color: #C0C0C0;
+	float: left;
+	display: block;
+	width: 20%;
+	margin: 1%;
+}
+
+.thirdSection2 {
+	border: 1px solid black;
+	background-color: #C0C0C0;
+	float: left;
+	display: block;
+	width: 20%;
+	margin: 1%;
+}*/
+
+
+.footer {
+  background-color: #C0C0C0;
+  width: 100% auto;
+  border: 1px solid black;
+  clear: both;
+  margin-top: 15px;
+  height: 75px;
+}
