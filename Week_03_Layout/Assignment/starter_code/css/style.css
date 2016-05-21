@@ -14,3 +14,135 @@
      line-height: 0;
      height: 0;
 }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color:  #f2f2f2;
+}
+
+header {
+	display: block;
+	background-color: #00004d;
+	width: 100%;
+	overflow: hidden;
+}
+
+.logo {
+	font-size: 40px;
+	font-weight: bolder;
+	color: white;
+	float: left;
+	width: 15%;
+	text-align: left;
+	padding: 20px 0 20px 0;
+	border: 1px solid white;
+}
+
+.nav_header {
+	width: 45%;
+	float: right;
+	text-align: center;
+	margin-right: 0%;
+    margin-top: 3%;
+	border: 1px solid white;
+
+
+}
+.nav_header ul li {
+	display: inline;
+	text-decoration: none;
+	padding: 11px;
+}
+
+.nav_header ul li a {
+	text-decoration: none;
+	color: yellow;
+	font-weight: bold;
+}
+
+.container {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.main_content {
+	width: 55%;
+	float: left;
+}
+
+.main_content h2 {
+	margin: 20px 0px 20px 0;
+}
+
+.main_content article a {
+	font-weight: bold;
+	text-align: right;
+	display: block;
+	text-decoration: none;
+	margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.dropcap {
+    font-size: 76px;
+    line-height: .8;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 4px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+aside {
+	width: 35%;
+	float: right;
+}
+
+article {
+	border-bottom: 1px solid gray;
+}
+
+article ul {
+	margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+article ul a {
+	text-decoration: none;
+	color: navy;
+}
+article h2 {
+	font-size: 35px;
+	color: navy;
+}
+
+aside h2 {
+	margin: 20px 0px 20px;
+}
+
+aside article p {
+	margin-top: 20px;
+}
+
+aside article a {
+	margin-bottom: 20px;
+}
+
+.sign_up {
+	background-color: yellow;
+	width: 100%;
+	text-align: center;
+	height: 100px;
+}
+
+.sign_up a {
+	background-color: navy;
+	color: white;
+	text-decoration: none;
+}
