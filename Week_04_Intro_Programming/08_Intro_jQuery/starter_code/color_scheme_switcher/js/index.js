@@ -1,12 +1,18 @@
-document.getElementById('grayButton').onclick = switchGray;
-document.getElementById('whiteButton').onclick = switchWhite;
+$('#grayButton').on('click', switchGray );
+$('#whiteButton').on('click', switchWhite );
 
 function switchGray() {
-  document.body.style.backgroundColor = 'gray';
- document.body.style.color = 'white';
+  $("body").css( {
+  	"background-color" : "gray",
+	"color" : "white"
+});
+  $("#newP").html("cool");
 }
 
 function switchWhite() {
-  document.body.style.backgroundColor = 'white';
-  document.body.style.color = 'black';
+  $("body").css( {
+  	"background-color" : "white",
+    "color" : "black"
+});
+  $("#newP").html("sweet");
 }
