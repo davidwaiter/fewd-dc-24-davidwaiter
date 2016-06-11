@@ -9,7 +9,6 @@ $(document).ready(function () {
 
         //Create a variable called moodvalue and get the value of the #mood input
         var moodvalue = $("#mood").val();
-        
 
         //Correct for capitalization
         moodvalue = moodvalue.toLowerCase().trim();

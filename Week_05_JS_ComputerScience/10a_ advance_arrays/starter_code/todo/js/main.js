@@ -23,8 +23,25 @@ BONUS:
 
 */
 
+var toDoList = [];
+var itemsToDo = 0;
+var itemsTotal = 0;
+
 //Create a function to count the number of to do items.
 
+function renderTodo () {
+  itemsTotal = toDoList.length;
+  itemsToDo = 0;
+
+  var renderedCode = "";
+
+  for (q = 0; q < todoList.length; q++) {
+    if (toDoList[q][0] == false) {
+      itemsToDo++;
+    }
+  }
+
+}
   //Variable to store total number of list items.
 
   //Variable to store total number of checked items.
@@ -37,10 +54,13 @@ BONUS:
 
 //Add new item on form submit.
 
+function addNewToDo (){
+
   //Prevent page refresh.
 
   //Grab value of form input & save into a variable.
-
+  var newItem = [false, ""];
+  newItem[1] = $("#newItem").val()
   //Create variable to store delete button HTML string.
 
   //Combine newItem and delButton into a HTML list item string to add onto page.
@@ -53,8 +73,9 @@ BONUS:
 
 
   //Clear out the text input.
+  $("#newItem").val(" ");
 
-
+}
 //Event listener for click on #todo-check.
 
 
