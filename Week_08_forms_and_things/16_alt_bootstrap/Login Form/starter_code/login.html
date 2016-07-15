@@ -49,12 +49,62 @@
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="home">
             <!-- current users here -->
+        <form class="form-horizontal">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Sign in</button>
+                </div>
+              </div>
+        </form>
+
         </div>
 
 
 
         <div role="tabpanel" class="tab-pane" id="profile">
             <!-- new users here -->
+            <form class="form-horizontal">
+
+                <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              
+                <div class="form-inline col-md-offset-1">
+                    <label for="exampleInputName2">First Name</label>
+                    <input type="text" class="form-control" id="InputName" placeholder="First Name">
+
+                    <label for="exampleInputEmail2">Last Name</label>
+                    <input type="text" class="form-control" id="InputEmail" placeholder="Last Name">
+                </div>
+
+                 <div class="form-inline col-md-offset-1">
+                    <label for="exampleInputName2">Password</label>
+                    <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+                    <label for="exampleInputEmail2">Confirm</label>
+                    <input type="password" class="form-control" id="InputEmail" placeholder="Confirm Password">
+                </div>
+
+                <div class="btn-group col-md-offset-2" role="group" aria-label="...">
+                  <label for="exampleInputName2">User Type</label>
+                  <button type="button" class="btn btn-default">Employer</button>
+                  <button type="button" class="btn btn-default">Talent</button>
+                </div>
+
+            </form>
         </div>
     </div>
     </div>
@@ -75,6 +125,7 @@
 
     <p class="copyright">Copyright 2015. Relaxr.</p>
 </footer>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>majestic practice</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	
+
+</head>
+<body>
+
+<div class="jumbotron">
+  <h1>Monthly Budget Calculator</h1>
+  <p>Having trouble managing your money? This nifty tool can help you figure out where most of your money is going. If you are under budget, it'll tell you exactly how much. If you go over budget, it'll tell you that too. Get started by entering your monthly budget below!</p>
+  <p><a class="btn btn-primary btn-lg reveal" href="#" role="button">Get Started!</a></p>
+</div>	
+
+<div class="container-fluid">
+<div class="row clearfix">
+<div class="lastMonthData col-md-4">
+
+<h3>Using only numbers, fill out the form below:</h3>
+
+<hr>
+
+<form>
+	<div class="form-group">
+	<label for="exampleInputEmail1">Monthly Income</label>
+    <input type="task1" class="form-control" id="incomeAmount" placeholder="$">
+	</div>
+
+<hr>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Rent + Utilities</label>
+    <input type="task1" class="form-control" id="rentAmount" placeholder="$">
+    <label for="exampleInputPassword1">Loans</label>
+    <input type="task2" class="form-control" id="loanAmount" placeholder="$">
+    <label for="exampleInputPassword1">Gas/Groceries</label>
+    <input type="task2" class="form-control" id="gasAmount" placeholder="$">
+    <label for="exampleInputPassword1">Fun!</label>
+    <input type="task2" class="form-control" id="funAmount" placeholder="$">
+  </div>
+
+  <button type="submit" class="btn btn-primary" id="totalMonthlySpend">Total</button>
+  <button type="submit" class="btn btn-primary" id="pieChartSubmit">Create Chart</button>
+  <button type="submit" class="btn btn-primary" id="tableSubmit">Create Table</button>
+</form>
+</div>
+
+<div class="lastMonthChart col-md-8">
+<canvas id="myChart"></canvas>
+</div>
+
+</div>
+
+<div class"row">
+
+<div class="totalSpend compare col-md-3">
+</div>
+
+<div class="dataTable col-md-3">
+</div>
+
+</div>
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
+<script src="js/script3.js"></script>
+
+
+</body>
+</html>

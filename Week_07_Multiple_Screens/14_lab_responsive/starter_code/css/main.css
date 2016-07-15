@@ -45,6 +45,10 @@ a {
     font-family: 'Merriweather', serif;
 }
 
+.hamburger {
+    display: none;
+}
+
 .navigation {
     width: 750px;
     float: right;
@@ -183,4 +187,89 @@ a {
 .line-up {
     position: relative;
     top: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+
+
+.container {
+    width: 100%;
+}
+
+ 
+}
+
+@media screen and (max-width: 880px) {
+
+
+.block-group  {
+    width: 100%;
+
+}
+
+
+.block {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-right:  none;
+    border-bottom: solid lightgray 1px;
+    float: none;
+}
+
+.block-group, .block:last-child { 
+    border-bottom: none;
+    float: none;
+}
+
+.block-heading {
+    text-align: center;
+}
+
+.block-copy {
+    text-align: center;
+}
+
+.btn, .btn-block {
+    width: 75%;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 880px) {
+    
+.horizontal-nav li { 
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.hero-block {
+        width: 100%;
+    }
+
+.hamburger {
+    font-size: 20px;
+}
+
+
+    }
+
+@media screen and (min-width: 500px){
+    .newClass {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hamburger {
+        display: block;
+    }
 }

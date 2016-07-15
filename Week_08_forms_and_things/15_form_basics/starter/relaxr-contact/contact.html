@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 
 	<title>Relaxr Blog</title>
+	<link rel="stylesheet" type="text/css" href="960_12_col.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	
 	<!--
 	Link to Normalize CSS, Google Fonts (http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800), 960 Grid CSS, and your style sheet.
@@ -12,7 +14,47 @@
 </head>
 <body>
 
+<div class="container_12">
+<header>
+			
+		<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><div class="line"></div><div class="line"></div><div class="line"></div></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="blog.html">Blog</a></li>
+					</ul>
+				</nav>
+		</header>
 
+		<form class="grid_8">
+			<h1>Contact Us</h1>
+			    <fieldset>
+				<label>Name</label><br>
+				<input id="fname" class="req" type="text"  required><br>
+				<label>Company</label><br>
+				<input id="companyName" class="req" type="text" class="grid_8" required><br>
+				<label>Email</label><br>
+				<input id="email" type="text" class="req" required>
+				</fieldset>
+
+				<fieldset>
+				<p>Project Info</p>
+				<label>Project Description</label><br>
+				<textarea id="projectDesc" type="text"></textarea>
+				<div>
+				<input type="submit" value="Send Message">
+			    </div>
+			    </fieldset>
+
+		</form>
+		<div class="grid_4">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam amet totam labore eaque sit praesentium explicabo blanditiis optio laboriosam ab id, deleniti, vel nam doloremque dolorum quia at assumenda perspiciatis.</p>
+			</div>
+
+</div>
 	
 </body>
 </html>

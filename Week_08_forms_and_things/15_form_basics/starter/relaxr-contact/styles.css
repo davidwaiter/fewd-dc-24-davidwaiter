@@ -46,6 +46,48 @@ header nav ul li a {
   color: #f9e42e;
 }
 
+.container_12 {
+  
+}
+
+
+#fname {
+  background-image:url(img/cd-icon-user.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#companyName {
+  background-image:url(img/cd-icon-company.svg) no-repeat 16px left, url(img/cd-required.svg) no-repeat top right;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#email {
+  background-image:url(img/cd-icon-email.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 10px;
+  padding-left: 3px;
+  border-radius: 5px;
+}
+
+#projectDesc {
+  background-image:url(img/cd-icon-message.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 10px;
+  padding-left: 3px;
+  border-radius: 5px;
+}
+
+fieldset {
+  border: 0;
+}
+
 /* -------------------------------- 
 
 Form
